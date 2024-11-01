@@ -1,23 +1,116 @@
 /* Styles for Mobile Site */
+body {
+background-color: #F5AD14;
 
+
+}
 /* Header & Hero */
+h1 {
+border: 3px solid #0CA5FA;   
+text-align:center;
+background-color: #2800A3;
+border-radius: 2rem;
+color: white;
+word-spacing: 2px;
+}
+#hero img {
+border: 4px solid #2800A3;
+width:10%;
+margin-left:40rem;
+border-radius: 30rem;
+background-color:#0CA5FA;
+}
 
 /* Projects */
+.project img {
+border: 3px solid #0CA5FA;
+width: 20%;
+
+}
+.project {
+border: 5px solid #0CA5FA;
+background-color: #2800A3;
+color: white;
+padding:1rem;
+line-height: 1px;
+border-radius: 1rem;
+font-size: 10px;
+}
+#projects h2 {
+    text-align:center;
+    border: 5px solid #0CA5FA;
+    line-height: 3rem;
+    background-color:#2800A3;
+    color:white;
+    border-radius: 2rem;  
+}
 
 /* Reviews */
-
+#reviews {
+display: flex;
+flex-direction: column;
+border: 5px solid #0CA5FA;
+background-color: #2800A3;
+line-height:1px;
+border-radius: 5rem;
+text-align:center;
+margin-top: 1rem;
+color: white;
+}
+.rating {
+color:#F5AD14;
+}
+.content {
+ color: red;
+}
+.name {
+    color:#0CA5FA;
+}
 /* Footer */
+footer {
+border: 2px solid #0CA5FA;
+text-align: center;
+border-radius: 20rem;
+background-color:#2800A3;
+color:white;
+margin-top:1rem;
+}
 
 
 /* Media state for Desktop site */
 @media (min-width: 1000px) {
 
     /* Header & Hero */
-
+#hero img 
+{
+width: 20%;
+}
+h1 
+{
+font-size: 2rem;
+line-height:3rem;
+}
     /* Projects */
+#projects h2 
+{
+    font-size:2rem;
+    line-height: 3rem;
+}
+#projects img 
+{
+width:30%;
+}
 
     /* Reviews */
-
+#reviews 
+{
+    font-size: 20px;
+    padding: 5px;
+}
     /* Footer */
+footer 
+{
+    font-size: 20px;
+}
 
 }
